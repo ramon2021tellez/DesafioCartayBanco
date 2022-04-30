@@ -13,7 +13,7 @@ class Carta
     
         end
     end
-    #metodo to_s origen de puts y print
+    #metodo to_s origen de puts 
     def to_s
        " Numero de carta #{numero} | con la Pinta #{pinta} "
     end
@@ -28,7 +28,7 @@ n.times {  |i|
 
 }
 #puts  " Numero de carta #{numero} | con la Pinta #{pinta} "
-puts '    Mostrar registro   '
-puts '_______________________'
+puts '           Mostrar registro         '
+puts '------------------------------------'
 #mostrar arreglo arraymostrar  
 puts arraymostrar
