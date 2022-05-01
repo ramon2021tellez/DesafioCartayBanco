@@ -10,7 +10,7 @@ class Carta
         if (numero.digits.count(1..13)) && ["C", "D", "T", "E"].include?(pinta)
             @numero = numero
             @pinta = pinta
-    
+        
         end
     end
     #metodo to_s origen de puts 
@@ -27,7 +27,7 @@ n.times {  |i|
     arraymostrar << Carta.new(rand(1..13), ["C", "D", "T", "E"].sample)
 
 }
-#puts  " Numero de carta #{numero} | con la Pinta #{pinta} "
+
 puts '           Mostrar registro         '
 puts '------------------------------------'
 #mostrar arreglo arraymostrar  

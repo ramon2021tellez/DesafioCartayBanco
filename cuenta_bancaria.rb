@@ -22,8 +22,8 @@ class CuentaBancaria
         "#{self.vip}-#{self.numero_de_cuenta}"
     end
 end
-
+#se instancia la variable resultado
 resultado = CuentaBancaria.new("marcos", 87654321, 1)
-
+#se muestra resultado nombre usuario y cuenta vip 
 puts resultado.nombre_usuario
 puts resultado.cuenta_vip
