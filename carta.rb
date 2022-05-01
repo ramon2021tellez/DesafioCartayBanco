@@ -7,7 +7,10 @@ class Carta
     #crear constructor initialize
     def initialize(numero, pinta)
         #establecer condicion para variable nunero y pinta
-        if (numero.digits.count(1..13)) && ["C", "D", "T", "E"].include?(pinta)
+        # opcion 2
+        if (numero>=1 || numero <= 13) && ["C", "D", "T", "E"].include?(pinta)
+        #opcion 1
+       # if (numero.digits.count(1..13)) && ["C", "D", "T", "E"].include?(pinta)
             @numero = numero
             @pinta = pinta
         
