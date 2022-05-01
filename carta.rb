@@ -15,7 +15,7 @@ class Carta
     end
     #metodo to_s origen de puts 
     def to_s
-       " Numero de carta #{numero} | con la Pinta #{pinta} "
+       " Numero de carta #{numero} , con la Pinta #{pinta} "
     end
 end
 #inicializar array vacio
